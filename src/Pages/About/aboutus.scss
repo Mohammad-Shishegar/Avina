@@ -1,0 +1,22 @@
+.aboutus{
+    background-image: url("../../image/about.jpg");
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    h1{
+        margin: 0px;
+        padding: 0px;
+        color: white;
+        text-align: center;
+        font-size: 40px;
+    }
+    p{
+        text-align: center;
+        color: white;
+        font-size: 25px;
+        padding: 0 15px;
+        line-height: 40px;
+    }
+}

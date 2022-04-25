@@ -1,0 +1,42 @@
+.adduser{
+    padding: 10px 20px;
+    p{
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .form{
+        width: 100%;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        .input{
+            width: 350px;
+            margin-top: 10px;
+        }
+    }
+    .btn{
+        .add{
+            width: 140px;
+            height: 40px;
+            margin-top: 20px;
+            font-size: 18px;
+            background-color: white;
+            color: red;
+            border-radius: 10px;
+            border: 2px solid red;
+            &:hover{
+                color: white;
+                cursor: pointer;
+                background-color: red;
+            }
+            &:disabled{
+                color: white;
+                background-color: gray;
+                border: none;
+                cursor: unset;
+            }
+        }
+    }
+}

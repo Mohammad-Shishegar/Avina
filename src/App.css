@@ -1,0 +1,11 @@
+.app{
+  display: flex;
+}
+
+.side{
+  flex: 1;
+}
+
+.body{
+  flex: 4;
+}
